@@ -1,1 +1,38 @@
-site_name: My Docs
+site_name: Foodie Studio
+site_url: https://foodiestudio.github.io/
+repo_name: foodiestudio.github.io
+repo_url: https://github.com/foodiestudio/foodiestudio.github.io
+site_description: "Index page of Foodie Studio "
+site_author: Foodie Studio
+copyright: 'Copyright &copy; 2022 Foodie Studio'
+remote_branch: gh-pages
+edit_uri: edit/main/docs/
+
+theme:
+  language: zh
+  name: 'material'
+  palette:
+    - scheme: default
+      primary: 'deep orange'
+      accent: 'pink'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  features:
+#    - navigation.tabs
+
+#extra_css:
+#  - 'css/app.css'
+
+markdown_extensions:
+  - codehilite:
+      guess_lang: false
+
+plugins:
+  - search
+  - git-revision-date
+#  - macros
